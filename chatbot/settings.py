@@ -52,11 +52,10 @@ AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
 AWS_KMS_ARN = os.getenv('AWS_KMS_ARN')
 AWS_REGION_NAME = os.getenv('AWS_REGION_NAME', 'us-east-1')
 
-# WELCOME_MESSAGE="Clinic Chat & Denver Health welcome you to Chat 4 Heart Health! We'll send you 4-5 messages every few days on different topics to support healthy habits.  You will be able ask me questions anytime, day or night and working with me could help you stay healthy. Anything you ask me is kept private. If you prefer messages in Spanish, text '1' here; Si prefieres mensajes en español, envía el mensaje '1' aquí. To get started, please answer this survey with questions about your health--if you have already answered this, thank you! We'll start sending you messages shortly."
-# WELCOME_MESSAGE_ES="¡Clinic Chat y Denver Health le da la bienvenida a Chat del Corazón ! Le enviaremos de 4 a 5 mensajes cada pocos días sobre diferentes temas para fomentar hábitos saludables. Podrás hacerme preguntas en cualquier momento, de día o de noche, y trabajar conmigo podría ayudarte a mantenerte saludable. Todo lo que me preguntes se mantendrá privado. Para comenzar, complete esta encuesta rápida sobre su salud. Si ya has respondido esto, ¡gracias! Si ya has respondido esto, ¡gracias! Le enviaremos mensajes en breve."
-
-WELCOME_MESSAGE = os.getenv('WELCOME_MESSAGE', None)
-WELCOME_MESSAGE_ES = os.getenv('WELCOME_MESSAGE_ES', None)
+WELCOME_MESSAGE_CONTROL = "Your healthcare provider is sending you three messages each week for the next 2 months to help you manage your health. Look for them every Monday, Wednesday and Friday starting next week."
+WELCOME_MESSAGE_CONTROL_ES = "Su proveedor de atención médica le enviará tres mensajes cada semana durante los próximos 2 meses para ayudarlo a controlar su salud. Búscalos todos los lunes, miércoles y viernes a partir de la próxima semana."
+WELCOME_MESSAGE="Clinic Chat & Salud welcome you to Chat 4 Heart Health! We'll send you 4-5 messages every few days on different topics to support healthy habits.  You will be able ask me questions anytime, day or night and working with me could help you stay healthy. Anything you ask me is kept private. If you prefer messages in Spanish, text '1' here; Si prefieres mensajes en español, envía el mensaje '1' aquí. To get started, please answer this survey with questions about your health--if you have already answered this, thank you! We'll start sending you messages shortly."
+WELCOME_MESSAGE_ES="¡Clinic Chat y Salud le da la bienvenida a Chat del Corazón ! Le enviaremos de 4 a 5 mensajes cada pocos días sobre diferentes temas para fomentar hábitos saludables. Podrás hacerme preguntas en cualquier momento, de día o de noche, y trabajar conmigo podría ayudarte a mantenerte saludable. Todo lo que me preguntes se mantendrá privado. Para comenzar, complete esta encuesta rápida sobre su salud. Si ya has respondido esto, ¡gracias! Si ya has respondido esto, ¡gracias! Le enviaremos mensajes en breve."
 print("WELCOME_MESSAGE: ", WELCOME_MESSAGE)
 print("WELCOME_MESSAGE_ES: ", WELCOME_MESSAGE_ES)
 
