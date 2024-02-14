@@ -99,7 +99,7 @@ DEBUG = False
 CORS_ORIGIN_ALLOW_ALL = True
 
 ALLOWED_HOSTS = [
-'localhost', '52.200.247.160','salud-c4h.clinicchat.com'
+'localhost', '3.208.223.106','salud-c4h.clinicchat.com'
 ]
 
 
